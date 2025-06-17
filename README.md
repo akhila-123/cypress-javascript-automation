@@ -1,4 +1,5 @@
-🧪 Cypress + JavaScript Test Framework
+🧪 **Cypress + JavaScript Test Framework**
+
 Objective:
 Design and implement an automated test framework using Cypress and JavaScript. The goal is to validate core functionality of a sample web application, applying good structure, reusability, and reporting.
 
