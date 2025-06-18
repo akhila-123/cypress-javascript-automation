@@ -5,19 +5,14 @@ Design and implement an automated test framework using Cypress and JavaScript. T
 
 Scenario:
 Automate regression tests for a sample to-do list application:
-👉 Demo app: https://example.cypress.io/todo
+👉 Demo app: https://courses.ultimateqa.com/users/sign_in
 
 Requirements:
 ✅ Test Cases to Automate:
-1. Verify that the to-do list loads with default items.
-
-2. Add a new to-do item and validate it appears in the list.
-
-3. Mark an item as completed and verify it moves to the completed section.
-
-4. Clear completed items and validate they're removed from the list.
-
-5. Filter by "Active" and "Completed" and ensure correct filtering.
+1. Verify login with valid credentials.
+2. Verify login with incorrect email/password.
+3. Verify login with empty email/password.
+4. Verify Remember Me option functionality.
 
 📂 Project Structure:
 cypress/
@@ -42,9 +37,11 @@ README.md
 7. Test tagging or grouping using describe.only, it.skip, etc.
 8. Integrate Cypress Dashboard
 9. Integrate Mochawesome Reporter.
+10. Add Api tests
+
 
 Bonus:
-1. Added GitHub Actions or other CI tool for running tests on push.
+1. Added GitHub Actions or other CI tool for running tests on push and parallel execution.
 2. Added ESLint for linting JS files.
 3. Use cypress.env.json to demonstrate environment handling.
 
@@ -54,14 +51,3 @@ A GitHub link or zipped folder with the Cypress project.
 A short README that explains how to install, run, and extend the framework.
 
 Optionally, a short Loom or video walkthrough.
-
-Evaluation Criteria:
-Clean code organization and best practices
-
-Usage of Cypress features (commands, selectors, waits, etc.)
-
-Reusability and maintainability of test code
-
-Proper assertions and coverage
-
-Overall structure and documentation

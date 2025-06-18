@@ -1,0 +1,34 @@
+{
+  "name": "cypress-javascript-automation",
+  "version": "1.0.0",
+  "description": "cypress-javascript-automation-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "test:headless": "npx cypress run --reporter mochawesome",
+    "delete:reports": "rmdir /s /q \"cypress/reports\" || true",
+    "combine:reports": "npx mochawesome-merge 'cypress/reports/*.json' > mochawesome.json && npx marge mochawesome.json",
+    "prereport": "npm run delete:reports",
+    "postreport": "npm run combine:reports"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhila-123/cypress-javascript-automation.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Akhila Bandiki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akhila-123/cypress-javascript-automation/issues"
+  },
+  "homepage": "https://github.com/akhila-123/cypress-javascript-automation#readme",
+  "devDependencies": {
+    "cypress": "^13.7.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^5.0.0",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
