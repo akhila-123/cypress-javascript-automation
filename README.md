@@ -4,7 +4,7 @@ Objective:
 Design and implement an automated test framework using Cypress and JavaScript. The goal is to validate core functionality of a sample web application, applying good structure, reusability, and reporting.
 
 Scenario:
-Automate regression tests for a sample to-do list application:
+Automate regression tests for a sample web application:
 👉 Demo app: https://courses.ultimateqa.com/users/sign_in
 
 Requirements:
